@@ -12,5 +12,6 @@ namespace Desafio1.Modelos
         public string cep { get; set; }
         public string localidade { get; set; }
         public string estado { get; set; }
+        public string cidade { get; set; }
     }
 }

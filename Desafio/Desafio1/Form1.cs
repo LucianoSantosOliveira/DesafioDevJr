@@ -59,7 +59,8 @@ namespace Desafio1
                     #region Slip para pegar Estado e Bairro
                     string estadoBairro = driver.FindElement(By.XPath("/html/body/div[2]/div[6]/div[1]/table/tbody/tr/td[4]/a")).Text;
                     string[] estadoBairroSeparado = estadoBairro.Split(',');
-                    #endregion                
+                #endregion
+                endereco.cidade = estadoBairroSeparado[1];    
                 endereco.localidade = estadoBairroSeparado[2];
                 endereco.estado = estadoBairroSeparado[0];
                 endereco.logradouro = driver.FindElement(By.XPath("/html/body/div[2]/div[6]/div[1]/table/tbody/tr/td[1]/a")).Text;
