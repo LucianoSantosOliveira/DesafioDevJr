@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Desafio1.exe" size="14816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Desafio1.exe" size="15328">
       <assemblyIdentity name="Desafio1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>H7YRSTZwzb0T6ZC6BFIiuoG+k18amxZK5N7K8DVPH8Y=</dsig:DigestValue>
+        <dsig:DigestValue>mUdd4BHJDGZG0Z8hnTP64mr3FKOlmxqciBgYuG7MXyQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

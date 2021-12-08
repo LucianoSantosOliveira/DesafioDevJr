@@ -37,6 +37,7 @@
             this.lblLogradouro = new System.Windows.Forms.Label();
             this.cbCep = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblAvisoCepInvalid = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -119,11 +120,21 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Histórico de Ceps: ";
             // 
+            // lblAvisoCepInvalid
+            // 
+            this.lblAvisoCepInvalid.AutoSize = true;
+            this.lblAvisoCepInvalid.Location = new System.Drawing.Point(98, 0);
+            this.lblAvisoCepInvalid.Name = "lblAvisoCepInvalid";
+            this.lblAvisoCepInvalid.Size = new System.Drawing.Size(35, 13);
+            this.lblAvisoCepInvalid.TabIndex = 12;
+            this.lblAvisoCepInvalid.Text = "label3";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 104);
+            this.ClientSize = new System.Drawing.Size(505, 104);
+            this.Controls.Add(this.lblAvisoCepInvalid);
             this.Controls.Add(this.cbCep);
             this.Controls.Add(this.lblCep);
             this.Controls.Add(this.lblBairro);
@@ -151,6 +162,7 @@
         private System.Windows.Forms.Label lblLogradouro;
         private System.Windows.Forms.ComboBox cbCep;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblAvisoCepInvalid;
     }
 }
 
